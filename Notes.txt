@@ -1,0 +1,33 @@
+Interactive Brokers Work Station
+id: haozhichen
+pswd: Kar98kM416
+
+Update IBapi:
+https://ibkrcampus.com/ibkr-api-page/trader-workstation-api/
+https://ibkrcampus.com/trading-lessons/accessing-the-tws-python-api-source-code/
+
+different package version from pip and import:
+https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
+https://stackoverflow.com/questions/50177431/in-jupyter-pip-reports-different-version-of-python-module-than-is-imported
+https://stackoverflow.com/questions/9586630/python-paths-and-import-order
+https://stackoverflow.com/questions/5984523/eggs-in-path-before-pythonpath-environment-variable
+https://stackoverflow.com/questions/31414041/how-to-prepend-a-path-to-sys-path-in-python
+https://note.nkmk.me/en/python-import-module-search-path/
+
+1_ have connection with IB api, try one transaction
+   try live transaction through strategy
+   
+2_ Pricing Frameworks: 
+    1.develop individual transaction strategies:  |have a class of getting stock info from yfinance, make these strategies child class from that class|
+        Pair Trading
+        Momentum Trading:
+            Indicators Generation: MACD, Volatility, boiling bands
+        Algorithmic Trading
+        Factors discovering with machine learning, develop trading entry/exit points
+    2.merge the strategies within one portfolio
+        merge if possible, if not, weight strategies
+    
+3_ Alternative Data Source:
+    FedSpeech
+    Web Scrapping looking for signals through news/social media
+    
